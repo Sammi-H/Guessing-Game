@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #a9e1b8, #d9d79e, #ccb99a);
+
+}
+
+.Lets-play {
+display: flex;
+margin: 2em auto;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+.Guess, .h1 {
+    color: green;
+}
+
+.text2 {
+    color: green;
+    margin: 2em auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.input-field {
+    margin: 2em auto;
+}
+
+.button {
+    color: green;
+    background-color: lightgreen;
+    border: none;
+    padding: 2px;
+}
+
+.input-field {
+    margin-top: 5em;
+   
+}
+
+.result {
+    font-size: 2em;
+    margin-top: 3em;
+    color:green;
+}
+
+.guess-list {
+    color: black;
+    font-size: 1.2em;
+}
